@@ -1,0 +1,13 @@
+import datetime
+date= datetime.date(2025,12,25)
+today= datetime.date.today()
+print(date)
+print(today)
+t= datetime.time(3, 25, 0)
+print(t)
+n= datetime.datetime.now()
+print(n)
+now_h=n.strftime("%H:%M:%S")
+print(now_h)
+now=n.strftime("%H:%M:%S %d-%m-%Y")
+print(now)
